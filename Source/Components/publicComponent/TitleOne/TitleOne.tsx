@@ -16,6 +16,9 @@ const TitleOne = (props: PropType) => {
 
   const a = 1;
   console.log(a);
+  const B = 1;
+  console.log(B);
+  
 
   return (
     <View style={styles.mainctr1}>
