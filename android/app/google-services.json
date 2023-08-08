@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "408745772632",
+    "firebase_url": "https://reward-system-ae313-default-rtdb.firebaseio.com",
+    "project_id": "reward-system-ae313",
+    "storage_bucket": "reward-system-ae313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408745772632:android:7c029ffae27e1b4adbec2d",
+        "android_client_info": {
+          "package_name": "com.reactnativescaffolding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMvw7LW7dxt5DZz6dYsm5y2HcVdp2ybZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
