@@ -15,6 +15,8 @@ interface AppState {
   };
 }
 
+
+
 const initialState: AppState = {
   user: {},
   authToken: null,
