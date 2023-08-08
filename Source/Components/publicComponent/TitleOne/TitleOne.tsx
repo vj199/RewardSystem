@@ -14,6 +14,9 @@ const TitleOne = (props: PropType) => {
   const theme = useTheme();
   const styles = makeStyles(theme);
 
+  const a = 1;
+  console.log(a);
+
   return (
     <View style={styles.mainctr1}>
       <Text
