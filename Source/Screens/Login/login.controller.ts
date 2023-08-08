@@ -1,6 +1,6 @@
 import RootNavigation from '@navigators/RootNavigator';
 import useLoginModal from './login.modal';
-import {loginValidationSchema} from '@helpers/validationSchema';
+import { loginValidationSchema } from '@helpers/validationSchema';
 
 const useLoginController = () => {
   const LM = useLoginModal();
@@ -12,11 +12,19 @@ const useLoginController = () => {
     }
   };
 
+  const handleLoginAgain = async (val: any) => {
+    const response = await LM.handleLogin(val);
+
+    if (response) {
+      RootNavigation.reset(0, 'TabNavigator');
+    }
+  };
+
   const signUP = () => {
     RootNavigation.navigate('Signup');
   };
 
-  return {handleLogin, loginValidationSchema, signUP};
+  return { handleLogin, loginValidationSchema, signUP, handleLoginAgain };
 };
 
 export default useLoginController;

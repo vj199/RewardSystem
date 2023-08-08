@@ -13,11 +13,6 @@ const TitleOne = (props: PropType) => {
   const {title, subTitle, FieldTitle} = props;
   const theme = useTheme();
   const styles = makeStyles(theme);
-
-  const a = 1;
-  console.log(a);
-  const B = 1;
-  console.log(B);
   
 
   return (
